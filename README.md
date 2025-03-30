@@ -23,7 +23,7 @@ Download the dataset from the [GoEmotions repository](https://github.com/google-
 ## Installation
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/yourusername/goemotions-project.git
+git clone https://github.com/AnonymousRunAway/goemotions-project.git
 cd goemotions-project
 pip install -r requirements.txt
 ```
@@ -35,12 +35,6 @@ Fine-tunes a pre-trained **BERT-based** model on GoEmotions for multi-label clas
 ### 2. BiLSTM + Attention
 Implements a **Bidirectional LSTM** with **self-attention** to capture contextual information effectively.
 To run the training, run this notebook in google colab.
-
-## Results
-| Model           | Accuracy | F1 Score |
-|----------------|----------|----------|
-| BERT           | XX%      | XX%      |
-| BiLSTM+Attention | XX%    | XX%      |
 
 ## Applications
 - **Mental health analysis**: Detect emotions in conversations.
